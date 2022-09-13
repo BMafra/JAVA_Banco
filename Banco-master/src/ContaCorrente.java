@@ -9,7 +9,7 @@ public class ContaCorrente extends ContaBancaria {
         this.limite = limite;
     }
 
-    @Override
+    //@Override
     public void sacar(double valor) {
         if (valor != 0) {
             if (this.getSaldo() + this.limite >= valor) {
@@ -26,7 +26,7 @@ public class ContaCorrente extends ContaBancaria {
         }
     }
 
-    @Override
+    //@Override
     public void depositar(double valor) {
         if (valor != 0) {
             this.setSaldo(this.getSaldo() + valor);

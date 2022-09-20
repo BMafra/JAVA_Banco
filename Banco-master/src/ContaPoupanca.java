@@ -29,7 +29,7 @@ public class ContaPoupanca extends ContaBancaria {
         if (valor != 0) {
             this.setSaldo(this.getSaldo() + valor);
             this.qtdOperacao++;
-            if (this.qtdOperacao > 3) {
+            if (this.qtdOperacao > 4) {
                 this.setSaldo(this.getSaldo() - this.taxaDeOperacao);
             }
         } else {

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-/**
+/*
  * Modela um objeto Banco que pode possuir várias contas bancárias.
  */
 public class Banco extends Object{
